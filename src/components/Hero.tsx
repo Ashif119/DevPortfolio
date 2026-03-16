@@ -79,13 +79,13 @@ Currently sharing my developer journey and building apps in public.
         >
           <div className="relative w-full aspect-square max-w-md mx-auto">
             <div className="absolute inset-0 bg-gradient-to-tr from-primary to-purple-500 rounded-3xl rotate-6 opacity-50 blur-lg" />
-            <div className="absolute inset-0 glass-panel rounded-3xl overflow-hidden border border-white/20 flex items-center justify-center text-9xl">
-              <img
-    src="/my-photo.jpg"
-    alt="Profile"
-    className="w-full h-full object-cover"
-  />
-            </div>
+         <div className="absolute inset-0 glass-panel rounded-3xl overflow-hidden border border-white/20">
+         <img
+          src="/DevPortfolio/my-photo.jpg"
+          alt="Profile"
+          className="w-full h-full object-cover"
+          />
+          </div>
             
             {/* Floating badges */}
             <motion.div 
