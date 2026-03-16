@@ -1,10 +1,10 @@
 import { motion } from 'motion/react';
 
 const skills = [
-  { name: 'Frontend Development', level: 90 },
-  { name: 'Backend Development', level: 85 },
-  { name: 'UI/UX Design', level: 75 },
-  { name: 'DevOps & Cloud', level: 70 },
+  { name: 'Android Development', level: 90 },
+  { name: 'Kotlin', level: 85 },
+  { name: 'Jetpack Compose', level: 80 },
+  { name: 'Flutter', level: 75 },
 ];
 
 export default function About() {
@@ -29,14 +29,19 @@ export default function About() {
             className="space-y-6 text-lg text-slate-400"
           >
             <p>
-              Hello! I'm a passionate Android Developer with a knack for creating elegant solutions in the least amount of time. I developed an interest in web development back in 2018 when I decided to try editing custom Tumblr themes.
-            </p>
-            <p>
-              Fast-forward to today, and I've had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences for a variety of clients.
-            </p>
-            <p>
-              When I'm not at the computer, I'm usually hanging out with my dog, reading, or exploring the outdoors.
-            </p>
+Hello! I'm <b>Ashif Kadri</b>, an Android Developer with 3+ years of experience
+building scalable and high-performance mobile applications.
+</p>
+
+<p>
+I specialize in Kotlin, Jetpack Compose, and modern Android architecture (MVVM)
+to create clean and efficient mobile apps.
+</p>
+
+<p>
+Currently I am expanding my skills into Flutter for cross-platform development
+and sharing my developer journey with the community.
+</p>
           </motion.div>
 
           <motion.div

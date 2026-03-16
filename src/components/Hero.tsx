@@ -38,7 +38,9 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-lg md:text-xl text-slate-400 max-w-lg"
           >
-            I build exceptional and accessible digital experiences for the web. Crafting beautiful UIs and robust backends.
+            I build scalable mobile apps using Kotlin, Jetpack Compose and Flutter.
+3+ years of experience building production Android apps and modern mobile architectures.
+Currently sharing my developer journey and building apps in public.
           </motion.p>
           
           <motion.div
@@ -78,7 +80,11 @@ export default function Hero() {
           <div className="relative w-full aspect-square max-w-md mx-auto">
             <div className="absolute inset-0 bg-gradient-to-tr from-primary to-purple-500 rounded-3xl rotate-6 opacity-50 blur-lg" />
             <div className="absolute inset-0 glass-panel rounded-3xl overflow-hidden border border-white/20 flex items-center justify-center text-9xl">
-              👨‍💻
+              <img
+    src="/my-photo.jpg"
+    alt="Profile"
+    className="w-full h-full object-cover"
+  />
             </div>
             
             {/* Floating badges */}
@@ -94,7 +100,7 @@ export default function Hero() {
               transition={{ repeat: Infinity, duration: 4, ease: "easeInOut", delay: 1 }}
               className="absolute -bottom-8 -left-8 glass-panel px-4 py-2 rounded-xl font-bold text-purple-500"
             >
-              Node.js
+              Flutter
             </motion.div>
           </div>
         </motion.div>

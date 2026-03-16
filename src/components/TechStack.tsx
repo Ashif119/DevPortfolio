@@ -1,17 +1,17 @@
 import { motion } from 'motion/react';
 
 const technologies = [
-  { name: 'React', icon: '⚛️', color: 'text-blue-400' },
-  { name: 'TypeScript', icon: '📘', color: 'text-blue-600' },
-  { name: 'Node.js', icon: '🟩', color: 'text-green-500' },
-  { name: 'Next.js', icon: '▲', color: 'text-white' },
-  { name: 'Tailwind', icon: '🌊', color: 'text-cyan-400' },
-  { name: 'PostgreSQL', icon: '🐘', color: 'text-blue-500' },
-  { name: 'MongoDB', icon: '🍃', color: 'text-green-600' },
-  { name: 'GraphQL', icon: '🕸️', color: 'text-pink-500' },
-  { name: 'Docker', icon: '🐳', color: 'text-blue-500' },
-  { name: 'AWS', icon: '☁️', color: 'text-orange-500' },
-  { name: 'Figma', icon: '🎨', color: 'text-purple-500' },
+  { name: 'Android', icon: '🤖', color: 'text-green-500' },
+  { name: 'Kotlin', icon: '🟣', color: 'text-purple-500' },
+  { name: 'Flutter', icon: '🦋', color: 'text-sky-400' },
+  { name: 'Dart', icon: '🎯', color: 'text-blue-500' },
+  { name: 'Jetpack Compose', icon: '🧩', color: 'text-indigo-400' },
+  { name: 'XML UI', icon: '📄', color: 'text-orange-400' },
+  { name: 'MVVM', icon: '🏗️', color: 'text-yellow-500' },
+  { name: 'Retrofit', icon: '🔗', color: 'text-green-400' },
+  { name: 'Room DB', icon: '💾', color: 'text-emerald-500' },
+  { name: 'Firebase', icon: '🔥', color: 'text-orange-500' },
+  { name: 'REST API', icon: '🌐', color: 'text-blue-400' },
   { name: 'Git', icon: '🔀', color: 'text-red-500' },
 ];
 
@@ -27,7 +27,7 @@ export default function TechStack() {
         >
           <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">Tech <span className="text-primary">Stack</span></h2>
           <p className="text-slate-400 max-w-2xl mx-auto">
-            Technologies and tools I use to bring ideas to life.
+            Technologies and tools I use to build modern Android & Flutter applications
           </p>
         </motion.div>
 
