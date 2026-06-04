@@ -1,21 +1,12 @@
-<div align="center">
-   github.com/Ashif119/Ashif119
-</div>
+# DevPortfolio 🌐
 
-# Run and deploy your AI Studio app
+My personal developer portfolio built with React + TypeScript + Vite.
 
-This contains everything you need to run your app locally.
+## 🔗 Live Site
+[ashif119.github.io/DevPortfolio](https://ashif119.github.io/DevPortfolio/)
 
-View your app in AI Studio: https://ai.studio/apps/8e660ca4-6648-460f-8895-adbcf8c1c334
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-# DevPortfolio
+## 🛠️ Built With
+- React + TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
