@@ -81,7 +81,7 @@ Currently sharing my developer journey and building apps in public.
             <div className="absolute inset-0 bg-gradient-to-tr from-primary to-purple-500 rounded-3xl rotate-6 opacity-50 blur-lg" />
          <div className="absolute inset-0 glass-panel rounded-3xl overflow-hidden border border-white/20">
          <img
-          src="/DevPortfolio/profile.jpg"
+          src="/profile.jpg"
           alt="Profile"
           className="w-full h-full object-cover"
           />
