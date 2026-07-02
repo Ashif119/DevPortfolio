@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, Heart } from 'lucide-react';
+import { Github, Linkedin, Heart } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -13,11 +13,12 @@ export default function Footer() {
         </p>
         
         <div className="flex items-center gap-4">
-          {[Github, Linkedin, Twitter].map((Icon, i) => (
-            <a key={i} href="#" className="text-slate-400 hover:text-primary transition-colors">
-              <Icon size={20} />
-            </a>
-          ))}
+          <a href="https://github.com/Ashif119" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-primary transition-colors">
+            <Github size={20} />
+          </a>
+          <a href="https://www.linkedin.com/in/ashif119/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-primary transition-colors">
+            <Linkedin size={20} />
+          </a>
         </div>
       </div>
     </footer>
