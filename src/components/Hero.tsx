@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { ArrowRight, Github, Linkedin, Twitter } from 'lucide-react';
+import { ArrowRight, Github, Linkedin } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -63,11 +63,12 @@ Currently sharing my developer journey and building apps in public.
             transition={{ duration: 1, delay: 0.8 }}
             className="flex items-center gap-6 mt-8"
           >
-            {[Github, Linkedin, Twitter].map((Icon, i) => (
-              <a key={i} href="#" className="text-slate-500 hover:text-primary transition-colors hover:scale-110">
-                <Icon size={24} />
-              </a>
-            ))}
+            <a href="https://github.com/Ashif119" target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-primary transition-colors hover:scale-110">
+              <Github size={24} />
+            </a>
+            <a href="https://www.linkedin.com/in/ashif119/" target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-primary transition-colors hover:scale-110">
+              <Linkedin size={24} />
+            </a>
           </motion.div>
         </div>
         
