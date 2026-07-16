@@ -1,23 +1,23 @@
 import { motion } from 'motion/react';
 
 const experiences = [
-  {
-    role: 'Senior Android Developer',
-    company: 'Tech Fussion Code',
+ {
+    role: 'Android Developer',
+    company: 'FusionCode',
     period: '2025 - Present',
-    description: 'Leading a team of 4 developers to build scalable web applications. Architected and implemented microservices using Node.js and Docker.',
+    description: 'Building production Android and Flutter apps with Kotlin, Jetpack Compose, and Clean Architecture. Working on a Compose Multiplatform ERP system (MVI architecture, Koin DI) alongside an existing fintech app, handling everything from feature development to production debugging.',
   },
   {
     role: 'Android Developer',
     company: 'RoundPay Techno Media',
     period: '2022 - 2025',
-    description: 'Developed highly interactive and responsive user interfaces for various clients using React, Vue, and modern CSS frameworks.',
+    description: 'Developed and maintained production Android applications using Kotlin, MVVM architecture, Retrofit, and Room. Debugged critical issues including memory leaks, race conditions in async callbacks, and third-party SDK integrations for fintech workflows.',
   },
   {
     role: 'Junior Android Developer',
     company: 'Mecatradz Technologies',
     period: '2021 - 2022',
-    description: 'Assisted in the development of internal tools and landing pages. Gained hands-on experience with JavaScript, HTML, and CSS.',
+    description: 'Started my Android development journey building internal tools and learning core fundamentals — Kotlin, Android SDK, and app architecture basics.',
   },
 ];
 

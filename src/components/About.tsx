@@ -29,18 +29,24 @@ export default function About() {
             className="space-y-6 text-lg text-slate-400"
           >
             <p>
-Hello! I'm <b>Ashif Kadri</b>, an Android Developer with 3+ years of experience
-building scalable and high-performance mobile applications.
+  Hello! I'm <b>Ashif Kadri</b>, an Android Developer with 3+ years of experience
+  building scalable, production-grade mobile applications for fintech and
+  enterprise clients.
 </p>
 
 <p>
-I specialize in Kotlin, Jetpack Compose, and modern Android architecture (MVVM)
-to create clean and efficient mobile apps.
+  I specialize in Kotlin, Jetpack Compose, and modern Android architecture
+  (MVVM, Clean Architecture) — with hands-on experience shipping apps that
+  handle real-money transactions, offline-first sync, and complex state
+  management. I'm also expanding into Flutter for cross-platform development
+  and Android reverse engineering as a specialized parallel skill.
 </p>
 
 <p>
-Currently I am expanding my skills into Flutter for cross-platform development
-and sharing my developer journey with the community.
+  I use AI-assisted development tools to accelerate delivery on boilerplate
+  and exploration — but architectural decisions, debugging root causes, and
+  code quality remain mine to own. Currently building toward SDE-2 level
+  roles, sharing my journey, and building in public.
 </p>
           </motion.div>
 
