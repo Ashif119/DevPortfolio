@@ -2,9 +2,9 @@ import { motion } from 'motion/react';
 import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
-  {
+ {
     title: 'ModernQRScanner',
-    description: 'A modern QR & Barcode Scanner app built with Jetpack Compose and Clean Architecture. Features scan history, copy/share results, and supports all major barcode formats.',
+    description: 'A production-quality QR & Barcode Scanner built with Jetpack Compose, Clean Architecture, and CameraX + ML Kit for real-time detection. Uses a throttled ImageAnalysis pipeline to prevent frame backlog and maintain smooth scanning performance, with Room-backed scan history following a single-source-of-truth pattern.',
     image: 'https://picsum.photos/seed/qrscanner/800/600',
     tech: ['Kotlin', 'Jetpack Compose', 'CameraX', 'ML Kit', 'Hilt', 'Room'],
     github: 'https://github.com/Ashif119/ModernQRScanner',
@@ -12,7 +12,7 @@ const projects = [
   },
   {
     title: 'B2C Fintech App',
-    description: 'A B2C fintech Flutter application with Clean Architecture and GetX state management. Features payment flows, wallet management, and transaction history.',
+    description: 'A production Flutter fintech app handling wallet recharges, payment flows, and transaction history with Clean Architecture and GetX. Solved a critical WindowLeaked crash caused by Retrofit callbacks firing after Activity destruction, and integrated a MATM SDK requiring careful handling of async result parsing and backend status sync.',
     image: 'https://picsum.photos/seed/fintech/800/600',
     tech: ['Flutter', 'Dart', 'GetX', 'Dio', 'Hive'],
     github: 'https://github.com/Ashif119/B2CFintechFlutter',
@@ -20,7 +20,7 @@ const projects = [
   },
   {
     title: 'TradeBook',
-    description: 'A wholesale business management app for Indian traders. Supports Indian number formatting, GST billing, and inventory tracking.',
+    description: 'A wholesale business management app for Indian traders, built with GetX MVC architecture and offline-first Hive storage. Handles Indian number formatting (lakhs/crores), GST billing, and inventory tracking with a repository pattern designed for reliable sync under intermittent connectivity.',
     image: 'https://picsum.photos/seed/tradebook/800/600',
     tech: ['Flutter', 'GetX', 'Hive', 'Dio', 'Clean Architecture'],
     github: '#',
@@ -28,7 +28,7 @@ const projects = [
   },
   {
     title: 'HafSales ERP',
-    description: 'A mobile ERP solution for wholesale and distribution businesses with product listing, order management, and sales tracking.',
+    description: 'A mobile ERP solution for wholesale and distribution businesses with product listing, order management, and sales tracking, built on MVVM with Kotlin. Diagnosed and fixed a persistent 500 error on the order-creation API by identifying a missing timezone offset in date payloads — a subtle bug that only surfaced under specific server conditions.',
     image: 'https://picsum.photos/seed/hafsales/800/600',
     tech: ['Android', 'Kotlin', 'MVVM', 'Retrofit', 'Room'],
     github: '#',
